@@ -8,7 +8,7 @@ export default function Login(){
             <div className="div-inputs-botao">
                 <input type="text" name="usuario" id="usuario" placeholder="Usuário" />
                 <input type="password" name="senha" id="senha" placeholder="Senha" />
-                <button type="submit" >Enviar</button>
+                <button type="submit" id="botao" >Enviar</button>
             </div>
         </div>
         </>
