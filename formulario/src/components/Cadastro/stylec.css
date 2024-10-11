@@ -1,0 +1,14 @@
+.Fileira-Telas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nome-numero-endereco,
+.email-senha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
