@@ -22,6 +22,7 @@ section {
     background-color: rgb(231, 231, 231);
     height: 29rem;
     width: 24rem;
+    border-radius: 15px;
 }
 
 #nome, #numero, #endereco, #email, #senha {
@@ -40,5 +41,5 @@ section {
     width: 18rem;
     border-radius: 12px;
     border: none;
-    height: 2rem;
+    height: 2.2rem;
 }
