@@ -1,3 +1,11 @@
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    height: 90vh;
+}
+
 .Fileira-Telas {
     display: flex;
     flex-direction: row;
@@ -11,4 +19,26 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: rgb(231, 231, 231);
+    height: 29rem;
+    width: 24rem;
+}
+
+#nome, #numero, #endereco, #email, #senha {
+    padding: 3px;
+    width: 19rem;
+    height: 1.6rem;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-bottom: 9px;
+}
+
+
+.botoes {
+    background-color: rgb(204, 216, 252);
+    margin-top: 7px;
+    width: 18rem;
+    border-radius: 12px;
+    border: none;
+    height: 2rem;
 }

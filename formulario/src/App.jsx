@@ -1,12 +1,12 @@
 import './App.css'
 // import Home from './views/Home'
-import Cadastro from './components/Cadastro'
+import Informacoes from './views/Informacoes'
 
 function App() {
   return (
     <>
       {/* <Home/> */}
-      <Cadastro/>
+      <Informacoes/>
     </>
   )
 }
